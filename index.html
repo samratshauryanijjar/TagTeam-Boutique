@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="#252a22" name="theme-color" />
+    <title>TagTeam Boutique | Designer Stitching Studio</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="announcement">
+      <span> ✦ MASTER KARIGARS &middot; MADE TO MEASURE </span>
+      <span> PERSONALISED FITTING &middot; STUDIO APPOINTMENTS </span>
+      <span> CRAFTED WITH CARE </span>
+    </div>
+    <header class="site-header">
+      <a class="brand" href="#home">
+        <span class="brand-mark"> ✦ </span>
+        <span>
+          <b> TAGTEAM </b>
+          <small> BOUTIQUE &middot; DESIGNER STITCHING </small>
+        </span>
+      </a>
+      <nav id="nav">
+        <a href="#collections"> Collections </a>
+        <a href="#craft"> Our craft </a>
+        <a href="#catalogue"> Catalogue </a>
+        <a href="#appointment"> Appointments </a>
+      </nav>
+      <div class="header-actions">
+        <button
+          aria-label="Toggle dark mode"
+          class="theme-button"
+          id="themeToggle"
+          title="Toggle dark mode"
+        >
+          ☾
+          <span> Dark mode </span>
+        </button>
+        <button
+          aria-label="Open saved designs"
+          class="icon-button"
+          id="wishlistOpen"
+        >
+          ♡
+          <sup id="wishCount"> 0 </sup>
+        </button>
+        <button class="cart-button" id="cartOpen">
+          Bag
+          <span id="cartCount"> 0 </span>
+        </button>
+        <button
+          aria-label="Toggle navigation"
+          class="menu-toggle"
+          id="menuToggle"
+        >
+          ☰
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">BESPOKE INDIAN BRIDAL &amp; FESTIVE TAILORING</p>
+          <h1>
+            Flawless silhouettes,
+            <br />
+            <em> handcrafted </em>
+            for you.
+          </h1>
+          <p class="hero-text">
+            Thoughtfully tailored pieces, timeless Indian artistry, and a fit
+            that feels unmistakably yours.
+          </p>
+          <div class="hero-actions">
+            <a class="gold-btn" href="#collections">
+              Explore the collection
+              <span> &nearrow; </span>
+            </a>
+            <a class="simple-link" href="#intro"> Discover our story &darr; </a>
+          </div>
+          <p class="signature">Made to measure. Made to remember.</p>
+        </div>
+        <div class="hero-visual">
+          <div class="fabric-frame">
+            <img
+              alt="Designer embroidered garment illustration only, no person"
+              src="assets/Burgundy Saree in Olive Arch alcove.png"
+            />
+          </div>
+          <span class="image-note"> THE TAGTEAM EDIT &middot; 01 </span>
+          <span class="seal">
+            A
+            <br />
+            <small> ✦ </small>
+            <br />
+            STUDIO
+          </span>
+        </div>
+      </section>
+      <section class="intro section" id="intro">
+        <p class="section-no">01 &mdash; THE STUDIO</p>
+        <div>
+          <p class="eyebrow dark">A LITTLE ABOUT TAGTEAM</p>
+          <h2>
+            Tradition in every thread.
+            <br />
+            <em> Your story in every stitch. </em>
+          </h2>
+          <p class="muted">
+            At TagTeam, every detail begins with you. From heirloom-inspired
+            bridalwear to occasion dressing, we bring together considered
+            fabrics, thoughtful design, and skilled tailoring.
+          </p>
+          <a class="under-link" href="#craft">
+            Meet our craftsmanship &nearrow;
+          </a>
+        </div>
+        <div class="intro-art">
+          <img
+            alt="Gold embroidery and fabric detail illustration"
+            src="assets/Golden Lattice on Forest Velvet.png"
+          />
+        </div>
+      </section>
+      <section class="section collections" id="collections">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow dark">CURATED FOR YOUR MOMENTS</p>
+            <h2>
+              Find your
+              <em> signature. </em>
+            </h2>
+          </div>
+          <p class="muted">
+            Start with a collection, then choose the details that make it yours.
+          </p>
+        </div>
+        <div class="collection-grid">
+          <a class="collection-card" data-category="Sarees" href="#catalogue">
+            <img
+              alt="Saree illustration displayed without a model"
+              src="assets/Burgundy Saree with Golden Embroidery.png"
+            />
+            <span> 01 </span>
+            <div>
+              <small> TIMELESS DRAPE </small>
+              <h3>Designer Sarees</h3>
+              <b> Explore &nearrow; </b>
+            </div>
+          </a>
+          <a class="collection-card" data-category="Bridal" href="#catalogue">
+            <img
+              alt="Bridal outfit illustration displayed without a model"
+              src="assets/Maroon Embroidered Bridal Couture Display.png"
+            />
+            <span> 02 </span>
+            <div>
+              <small> YOUR MOMENT, YOUR WAY </small>
+              <h3>Bridal Couture</h3>
+              <b> Explore &nearrow; </b>
+            </div>
+          </a>
+          <a class="collection-card" data-category="Blouses" href="#catalogue">
+            <img
+              alt="Embroidered blouse illustration displayed without a model"
+              src="assets/Emerald Gold Embroidered Choli Display.png"
+            />
+            <span> 03 </span>
+            <div>
+              <small> THE PERFECT FINISH </small>
+              <h3>Designer Blouses</h3>
+              <b> Explore &nearrow; </b>
+            </div>
+          </a>
+          <a class="collection-card" data-category="Suits" href="#catalogue">
+            <img
+              alt="Suit illustration displayed without a model"
+              src="assets/Maroon Embroidered Anarkali Display.png"
+            />
+            <span> 04 </span>
+            <div>
+              <small> EFFORTLESS ELEGANCE </small>
+              <h3>Suits &amp; Dresses</h3>
+              <b> Explore &nearrow; </b>
+            </div>
+          </a>
+        </div>
+      </section>
+      <section class="craft section" id="craft">
+        <div class="craft-art">
+          <img
+            alt="Embroidery and textile detail illustration"
+            src="assets/Opulent Embroidery and Tailoring Still Life.png"
+          />
+        </div>
+        <div>
+          <p class="eyebrow">THE ART OF A PERFECT FIT</p>
+          <h2>
+            Beautiful by design.
+            <br />
+            <em> Personal by nature. </em>
+          </h2>
+          <p>
+            From consultation to final fitting, each piece is shaped around your
+            measurements, occasion, and personal style.
+          </p>
+          <ul>
+            <li>
+              <b> Thoughtful consultation </b>
+              <small> Your style, occasion, and vision come first. </small>
+            </li>
+            <li>
+              <b> Masterful tailoring </b>
+              <small> Every seam and detail, finished with care. </small>
+            </li>
+            <li>
+              <b> A fit that feels right </b>
+              <small> Refined through fitting, made for comfort. </small>
+            </li>
+          </ul>
+          <a class="gold-btn" href="#appointment"> Book a fitting &nearrow; </a>
+        </div>
+      </section>
+      <section class="section catalogue" id="catalogue">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow dark">THE CURRENT EDIT</p>
+            <h2>
+              Pieces to
+              <em> fall for. </em>
+            </h2>
+          </div>
+          <p class="muted">
+            Filter, compare, save, and add designs to your bag.
+          </p>
+        </div>
+        <div class="catalogue-tools">
+          <div class="filters" id="filters">
+            <button class="filter active" data-filter="All">All pieces</button>
+            <button class="filter" data-filter="Sarees">Sarees</button>
+            <button class="filter" data-filter="Bridal">Bridal</button>
+            <button class="filter" data-filter="Blouses">Blouses</button>
+            <button class="filter" data-filter="Suits">
+              Suits &amp; dresses
+            </button>
+          </div>
+          <div class="tool-right">
+            <input
+              id="search"
+              placeholder="Search designs&hellip;"
+              type="search"
+            />
+            <select aria-label="Sort catalogue" id="sort">
+              <option value="featured">Featured</option>
+              <option value="low">Price: low to high</option>
+              <option value="high">Price: high to low</option>
+              <option value="az">Name: A&ndash;Z</option>
+            </select>
+          </div>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+      <section class="features section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow dark">DESIGNED AROUND YOU</p>
+            <h2>
+              Little details.
+              <em> Better service. </em>
+            </h2>
+          </div>
+          <p class="muted">Useful tools to make planning your outfit easier.</p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span> 01 </span>
+            <h3>Custom design brief</h3>
+            <p>
+              Share your occasion, preferred style, and timeline in the
+              appointment form.
+            </p>
+          </article>
+          <article>
+            <span> 02 </span>
+            <h3>Measurement checklist</h3>
+            <p>Keep a handy list of measurements to bring to your fitting.</p>
+            <button class="feature-link" id="measureOpen">
+              Open checklist &nearrow;
+            </button>
+          </article>
+          <article>
+            <span> 03 </span>
+            <h3>Budget planner</h3>
+            <p>Estimate your outfit spend before you request a consultation.</p>
+            <button class="feature-link" id="budgetOpen">
+              Plan my budget &nearrow;
+            </button>
+          </article>
+          <article>
+            <span> 04 </span>
+            <h3>Recently viewed</h3>
+            <p>Quickly revisit designs you have opened in the catalogue.</p>
+            <button class="feature-link" id="recentOpen">
+              View history &nearrow;
+            </button>
+          </article>
+        </div>
+      </section>
+      <section class="appointment section" id="appointment">
+        <div>
+          <p class="eyebrow">YOUR TAGTEAM MOMENT</p>
+          <h2>
+            Let's create
+            <br />
+            something
+            <em> beautiful. </em>
+          </h2>
+          <p>
+            Need a custom fit or a design made just for you? Send a consultation
+            request.
+          </p>
+          <div class="service-note">
+            ✦
+            <span>
+              <b> Personal appointments </b>
+              <small>
+                Consultation &middot; Measurements &middot; Design planning
+              </small>
+            </span>
+          </div>
+        </div>
+        <form id="bookingForm">
+          <p class="form-title">STUDIO CONCIERGE</p>
+          <label>
+            Name *
+            <input name="name" placeholder="Your full name" required="" />
+          </label>
+          <div class="form-row">
+            <label>
+              Phone *
+              <input
+                name="phone"
+                pattern="[0-9+ ()-]{8,18}"
+                placeholder="+91"
+                required=""
+              />
+            </label>
+            <label>
+              Service *
+              <select name="service" required="">
+                <option value="">Choose one</option>
+                <option>Designer saree</option>
+                <option>Bridal couture</option>
+                <option>Blouse stitching</option>
+                <option>Suit or dress stitching</option>
+                <option>Alterations</option>
+                <option>Design consultation</option>
+              </select>
+            </label>
+          </div>
+          <label>
+            Details
+            <textarea
+              name="details"
+              placeholder="Occasion, style, timeline&hellip;"
+              rows="3"
+            ></textarea>
+          </label>
+          <button class="gold-btn full" type="submit">
+            Save appointment request &nearrow;
+          </button>
+          <small id="formMessage">
+            Demo form: request is saved only in this browser.
+          </small>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <a class="brand footer-brand" href="#home">
+        <span class="brand-mark"> ✦ </span>
+        <span>
+          <b> TAGTEAM </b>
+          <small> BOUTIQUE &middot; DESIGNER STITCHING </small>
+        </span>
+      </a>
+      <p>Made to measure. Made to remember.</p>
+      <small> &copy; 2026 TagTeam Boutique </small>
+    </footer>
+    <div class="backdrop" id="backdrop"></div>
+    <aside class="drawer" id="cartDrawer">
+      <div class="drawer-head">
+        <div>
+          <p class="eyebrow dark">YOUR SELECTION</p>
+          <h2>Shopping bag</h2>
+        </div>
+        <button data-close="cart">&times;</button>
+      </div>
+      <div id="cartItems"></div>
+      <div class="drawer-footer">
+        <div class="total-row">
+          <span> Subtotal </span>
+          <strong id="cartTotal"> ₹0 </strong>
+        </div>
+        <p>
+          Custom stitching and final pricing may be confirmed during
+          consultation.
+        </p>
+        <button class="gold-btn full" id="checkoutBtn">
+          Continue to enquiry &nearrow;
+        </button>
+      </div>
+    </aside>
+    <div class="modal" id="modal">
+      <div class="modal-panel">
+        <button class="modal-x" data-close="modal">&times;</button>
+        <div id="modalContent"></div>
+      </div>
+    </div>
+    <div class="toast" id="toast" role="status"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
